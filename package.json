@@ -1,0 +1,24 @@
+{
+  "name": "lehenga-rental-backend",
+  "version": "1.0.0",
+  "description": "Backend API for lehenga rental app (products, enquiries, admin auth, image upload)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed:admin": "node src/scripts/checkAdminEnv.js"
+  },
+  "dependencies": {
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.3",
+    "multer": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
